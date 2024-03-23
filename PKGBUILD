@@ -1,7 +1,11 @@
+# SPDX-FileCopyrightText: 2019 Max Mehl
+# SPDX-FileCopyrightText: 2024 Pellegrino Prevete
+# SPDX-License-Identifier: AGPL-3.0
+#
+# Maintainer:  Truocolo <truocolo@aol.com>
+# Maintainer:  Pellegrino Prevete <cGVsbGVncmlub3ByZXZldGVAZ21haWwuY29tCg== | base -d>
 # Maintainer: George Rawlinson <grawlinson@archlinux.org>
 # Contributor: Max Mehl <aur at mehl dot mx>
-# SPDX-FileCopyrightText: 2019 Max Mehl
-# SPDX-License-Identifier: CC0-1.0
 
 pkgname=python-license-expression
 pkgver=30.2.0
@@ -62,3 +66,5 @@ package() {
 
   python -m installer --destdir="$pkgdir" dist/*.whl
 }
+
+# vim:set sw=2 sts=-1 et:
